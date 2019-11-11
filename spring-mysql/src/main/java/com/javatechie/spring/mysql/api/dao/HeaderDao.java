@@ -5,6 +5,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.javatechie.spring.mysql.api.model.POHeader;
 
-public interface HeaderDao extends JpaRepository<POHeader, Integer>{
+public interface HeaderDao extends JpaRepository<POHeader, Long>{
 
 }
